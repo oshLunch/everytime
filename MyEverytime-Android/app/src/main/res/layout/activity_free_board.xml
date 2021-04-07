@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical">
+<!--    tools:context=".main.boards.freeboard.FreeBoardActivity">-->
+
+    <LinearLayout
+        android:id="@+id/linear_layout_free_board_top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/iv_free_board_go_back"
+            android:onClick="customOnClick"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/left_arrow_red" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:text="자유게시판"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/iv_free_board_sync"
+            android:onClick="customOnClick"
+            android:layout_marginEnd="25dp"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@drawable/red_sync" />
+
+        <ImageView
+            android:layout_marginEnd="15dp"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@drawable/search_glass" />
+
+        <ImageView
+            android:id="@+id/iv_free_board_more"
+            android:onClick="customOnClick"
+            android:layout_marginEnd="15dp"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@drawable/red_more" />
+
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_free_board_post_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+</LinearLayout>

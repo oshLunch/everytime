@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/iv_login_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/logo_everytime"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_login_logoDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/activity_sign_in_slogan"
+        android:textColor="@color/colorGrey"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_login_logo" />
+
+    <TextView
+        android:id="@+id/tv_login_appName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="@color/colorEveryTimeRed"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_login_logoDescription" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout_login_inputBoxes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_login_appName">
+
+        <EditText
+            android:id="@+id/et_logIn_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_lightgrey"
+            android:hint="@string/activity_sign_in_id_hint"
+            android:inputType="text"
+            android:padding="9dp"
+            android:paddingStart="15dp"
+            android:textColor="@color/colorBlack"
+            android:textColorHint="@color/colorDarkGrey"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/et_logIn_pw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/btn_lightgrey"
+            android:hint="@string/activity_sign_in_pw_hint"
+            android:inputType="textPassword"
+            android:padding="9dp"
+            android:paddingStart="15dp"
+            android:textColor="@color/colorBlack"
+            android:textColorHint="@color/colorDarkGrey"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btn_logIn_logIn"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/btn_red"
+            android:text="@string/activity_sign_in_btn_login"
+            android:textColor="@color/colorWhite" />
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout_autoLoginBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.google.android.material.checkbox.MaterialCheckBox
+                android:id="@+id/auto_login_check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="자동로그인"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_login_findIDPW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="@string/activity_sign_in_find_id_pw"
+        android:textColor="@color/colorGrey"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout_login_inputBoxes" />
+
+    <Button
+        android:id="@+id/btn_logIn_signUp"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="@android:color/transparent"
+        android:text="@string/activity_sign_in_btn_sign_up"
+        android:textColor="@color/colorBlack"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_login_findIDPW" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

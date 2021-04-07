@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/signin_input_form_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:padding="10dp">
+
+    <!--    <LinearLayout-->
+    <!--        android:id="@+id/linearLayout_signUp_topBar"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="50dp"-->
+    <!--        android:gravity="center_vertical"-->
+    <!--        android:orientation="horizontal"-->
+    <!--        android:paddingStart="15dp"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent">-->
+
+    <!--        <ImageView-->
+    <!--            android:layout_width="20dp"-->
+    <!--            android:layout_height="20dp"-->
+    <!--            android:src="@drawable/left_arrow_red" />-->
+
+    <!--        <TextView-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_marginStart="10dp"-->
+    <!--            android:text="@string/activity_sign_up_input_form_sign_up"-->
+    <!--            android:textColor="@color/colorBlack"-->
+    <!--            android:textSize="18sp" />-->
+
+    <!--        <TextView-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_weight="1" />-->
+
+    <!--        <ImageView-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="19dp"-->
+    <!--            android:src="@drawable/btn_cancel" />-->
+    <!--    </LinearLayout>-->
+
+    <ScrollView
+        android:id="@+id/parent_scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout_signUp_agreementsGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="100dp">
+
+            <TextView
+                android:id="@+id/tv_signUp_agreement"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/activity_sign_up_input_form_member_info"
+                android:textColor="@color/colorBlack"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <!--            아이디-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/linearLayout_signUp_id_inputForm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="15dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/activity_sign_up_input_form_id"
+                        android:textColor="@color/colorDarkerGrey" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/activity_sign_up_input_form_id_constraint"
+                        android:textColor="@color/colorDarkGrey" />
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/et_signup2_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/btn_lightgrey"
+                    android:hint="@string/activity_sign_up_input_form_id_hint"
+                    android:inputType="text"
+                    android:padding="9dp"
+                    android:paddingStart="15dp"
+                    android:textColor="@color/colorBlack"
+                    android:textColorHint="@color/colorDarkGrey"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <!--            비밀번호-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/linearLayout_signUp_pw_inputForm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="15dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/activity_sign_up_input_form_pw"
+                        android:textColor="@color/colorDarkerGrey" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/activity_sign_up_input_form_pw_constraint"
+                        android:textColor="@color/colorDarkGrey" />
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/et_signup2_pw"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/btn_lightgrey"
+                    android:hint="@string/activity_sign_up_input_form_pw_hint"
+                    android:inputType="textPassword"
+                    android:padding="9dp"
+                    android:paddingStart="15dp"
+                    android:textColor="@color/colorBlack"
+                    android:textColorHint="@color/colorDarkGrey"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/et_signup2_pw_again"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/btn_lightgrey"
+                    android:hint="@string/activity_sign_up_input_form_pw_again_hint"
+                    android:inputType="textPassword"
+                    android:padding="9dp"
+                    android:paddingStart="15dp"
+                    android:textColor="@color/colorBlack"
+                    android:textColorHint="@color/colorDarkGrey"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <!--            이메일-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/linearLayout_signUp_email_inputForm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="15dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/activity_sign_up_input_form_email"
+                        android:textColor="@color/colorDarkerGrey" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/activity_sign_up_input_form_email_description"
+                        android:textColor="@color/colorDarkGrey" />
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/et_signup2_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/btn_lightgrey"
+                    android:hint="@string/activity_sign_up_input_form_email_hint"
+                    android:inputType="text"
+                    android:padding="9dp"
+                    android:paddingStart="15dp"
+                    android:textColor="@color/colorBlack"
+                    android:textColorHint="@color/colorDarkGrey"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <!--            닉네임-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/linearLayout_signUp_nickName_inputForm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="15dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/activity_sign_up_input_form_nickname"
+                        android:textColor="@color/colorDarkerGrey" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/activity_sign_up_input_form_nickname_description"
+                        android:textColor="@color/colorDarkGrey" />
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/et_signup2_nickName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/btn_lightgrey"
+                    android:hint="@string/activity_sign_up_input_form_nickname_hint"
+                    android:inputType="text"
+                    android:padding="9dp"
+                    android:paddingStart="15dp"
+                    android:textColor="@color/colorBlack"
+                    android:textColorHint="@color/colorDarkGrey"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <!--            대학교-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/linearLayout_signUp_univName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="15dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/activity_sign_up_input_form_univ"
+                        android:textColor="@color/colorDarkerGrey" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/activity_sign_up_input_form_univ_description"
+                        android:textColor="@color/colorDarkGrey" />
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/et_signup2_univName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/btn_lightgrey"
+                    android:hint="@string/activity_sign_up_input_form_univ_hint"
+                    android:inputType="text"
+                    android:padding="9dp"
+                    android:paddingStart="15dp"
+                    android:textColor="@color/colorBlack"
+                    android:textColorHint="@color/colorDarkGrey"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <!--            학번-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/linearLayout_signUp_univYear"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="15dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/activity_sign_up_input_form_univ_year"
+                        android:textColor="@color/colorDarkerGrey" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/activity_sign_up_input_form_univ_year_constraint"
+                        android:textColor="@color/colorDarkGrey" />
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/et_signup2_univYear"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/btn_lightgrey"
+                    android:hint="@string/activity_sign_up_input_form_univ_year_hint"
+                    android:inputType="text"
+                    android:padding="9dp"
+                    android:paddingStart="15dp"
+                    android:textColor="@color/colorBlack"
+                    android:textColorHint="@color/colorDarkGrey"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <!--            회원가입 버튼-->
+            <Button
+                android:id="@+id/btn_signup2_signUp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/btn_red"
+                android:text="@string/activity_sign_up_input_form_btn_sign_up"
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

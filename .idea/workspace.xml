@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8dd61af5-5096-437f-abb7-020b3239ea3a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/MyEverytime-Android/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyEverytime-Android/app/src/main/java/com/example/myeverytime/ApplicationClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyEverytime-Android/app/src/main/java/com/example/myeverytime/ApplicationClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyEverytime-spring-server/bin/.mvn/wrapper/MavenWrapperDownloader.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyEverytime-spring-server/bin/.mvn/wrapper/MavenWrapperDownloader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyEverytime-spring-server/bin/src/main/java/com/cos/everytimeandroid/EverytimeAndroidApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyEverytime-spring-server/bin/src/main/java/com/cos/everytimeandroid/EverytimeAndroidApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyEverytime-spring-server/bin/src/main/java/com/cos/everytimeandroid/domain/board/Board$BoardBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyEverytime-spring-server/bin/src/main/java/com/cos/everytimeandroid/domain/board/Board$BoardBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyEverytime-spring-server/bin/src/main/java/com/cos/everytimeandroid/domain/board/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyEverytime-spring-server/bin/src/main/java/com/cos/everytimeandroid/domain/board/Board.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyEverytime-spring-server/bin/src/main/java/com/cos/everytimeandroid/domain/board/BoardRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyEverytime-spring-server/bin/src/main/java/com/cos/everytimeandroid/domain/board/BoardRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyEverytime-spring-server/bin/src/main/java/com/cos/everytimeandroid/domain/reply/Reply$ReplyBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyEverytime-spring-server/bin/src/main/java/com/cos/everytimeandroid/domain/reply/Reply$ReplyBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyEverytime-spring-server/bin/src/main/java/com/cos/everytimeandroid/domain/reply/Reply.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyEverytime-spring-server/bin/src/main/java/com/cos/everytimeandroid/domain/reply/Reply.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyEverytime-spring-server/bin/src/main/java/com/cos/everytimeandroid/domain/reply/ReplyRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyEverytime-spring-server/bin/src/main/java/com/cos/everytimeandroid/domain/reply/ReplyRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyEverytime-spring-server/bin/src/main/java/com/cos/everytimeandroid/domain/user/User$UserBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyEverytime-spring-server/bin/src/main/java/com/cos/everytimeandroid/domain/user/User$UserBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyEverytime-spring-server/bin/src/main/java/com/cos/everytimeandroid/domain/user/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyEverytime-spring-server/bin/src/main/java/com/cos/everytimeandroid/domain/user/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyEverytime-spring-server/bin/src/main/java/com/cos/everytimeandroid/domain/user/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyEverytime-spring-server/bin/src/main/java/com/cos/everytimeandroid/domain/user/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyEverytime-spring-server/bin/src/main/java/com/cos/everytimeandroid/service/board/BoardService.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyEverytime-spring-server/bin/src/main/java/com/cos/everytimeandroid/service/board/BoardService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyEverytime-spring-server/bin/src/main/java/com/cos/everytimeandroid/service/reply/ReplyService.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyEverytime-spring-server/bin/src/main/java/com/cos/everytimeandroid/service/reply/ReplyService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyEverytime-spring-server/bin/src/main/java/com/cos/everytimeandroid/service/user/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyEverytime-spring-server/bin/src/main/java/com/cos/everytimeandroid/service/user/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyEverytime-spring-server/bin/src/main/java/com/cos/everytimeandroid/web/board/BoardController.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyEverytime-spring-server/bin/src/main/java/com/cos/everytimeandroid/web/board/BoardController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyEverytime-spring-server/bin/src/main/java/com/cos/everytimeandroid/web/board/dto/BoardSaveReqDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyEverytime-spring-server/bin/src/main/java/com/cos/everytimeandroid/web/board/dto/BoardSaveReqDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyEverytime-spring-server/bin/src/main/java/com/cos/everytimeandroid/web/dto/CMRespDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyEverytime-spring-server/bin/src/main/java/com/cos/everytimeandroid/web/dto/CMRespDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyEverytime-spring-server/bin/src/main/java/com/cos/everytimeandroid/web/reply/ReplyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyEverytime-spring-server/bin/src/main/java/com/cos/everytimeandroid/web/reply/ReplyController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyEverytime-spring-server/bin/src/main/java/com/cos/everytimeandroid/web/reply/dto/ReplySaveReqDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyEverytime-spring-server/bin/src/main/java/com/cos/everytimeandroid/web/reply/dto/ReplySaveReqDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyEverytime-spring-server/bin/src/main/java/com/cos/everytimeandroid/web/user/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyEverytime-spring-server/bin/src/main/java/com/cos/everytimeandroid/web/user/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyEverytime-spring-server/bin/src/main/java/com/cos/everytimeandroid/web/user/dto/LoginDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyEverytime-spring-server/bin/src/main/java/com/cos/everytimeandroid/web/user/dto/LoginDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyEverytime-spring-server/bin/src/test/java/com/cos/everytimeandroid/EverytimeAndroidApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyEverytime-spring-server/bin/src/test/java/com/cos/everytimeandroid/EverytimeAndroidApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyEverytime-spring-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/MyEverytime-spring-server/src/main/resources/application.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1qHV7an4aj5pmJXutgKpGwbl4PX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/MyEverytime-Android" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8dd61af5-5096-437f-abb7-020b3239ea3a" name="Default Changelist" comment="" />
+      <created>1616736336116</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616736336116</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="881" y="425" key="#Notifications" timestamp="1617688586800">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="881" y="425" key="#Notifications/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1617688586800" />
+    <state x="776" y="318" key="FileChooserDialogImpl" timestamp="1617688633271">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="776" y="318" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1617688633271" />
+  </component>
+</project>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="yearArea">
+        <item>1학년</item>
+        <item>2학년</item>
+        <item>3학년</item>
+        <item>4학년</item>
+    </string-array>
+
+    <string-array name="termArea">
+        <item>1학기</item>
+        <item>여름학기</item>
+        <item>2학기</item>
+        <item>겨울학기</item>
+    </string-array>
+
+    <string-array name="graduateArea">
+        <item>공통과목</item>
+        <item>선수과목</item>
+        <item>전공과목</item>
+    </string-array>
+
+    <string-array name="universityArea">
+        <item>학년필수</item>
+        <item>전공필수</item>
+        <item>전공선택</item>
+        <item>교양과목</item>
+    </string-array>
+
+    <string-array name="universityMajor">
+        <item>컴퓨터공학부</item>
+        <item>디자인학부</item>
+        <item>국어국문학과</item>
+        <item>영어영문학과</item>
+        <item>그 외 학과</item>
+    </string-array>
+
+    <string-array name="graduateMajor">
+        <item>대학원</item>
+        <item>과목은</item>
+        <item>솔직히</item>
+        <item>잘</item>
+        <item>모릅니다</item>
+    </string-array>
+
+</resources>

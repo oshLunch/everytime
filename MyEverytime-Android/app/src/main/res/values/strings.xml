@@ -1,0 +1,249 @@
+<resources>
+    <string name="app_name">에브리타임</string>
+    <string name="loading">로딩중입니다.</string>
+    <string name="network_error">네트워크 연결이 원활하지 않습니다.</string>
+    <string name="university_name">소퀘대</string>
+
+    <!--    activity_sign_in (로그인 화면)-->
+    <string name="activity_sign_in_slogan">대학 생활을 더 편하고 즐겁게</string>
+    <string name="activity_sign_in_id_hint">아이디</string>
+    <string name="activity_sign_in_pw_hint">비밀번호</string>
+    <string name="activity_sign_in_btn_login">에브리타임 로그인</string>
+    <string name="activity_sign_in_find_id_pw">아이디/비밀번호 찾기</string>
+    <string name="activity_sign_in_btn_sign_up">회원가입</string>
+
+    <!--    activity_sign_up_agreement (약관 동의 페이지)-->
+    <string name="activity_sign_up_agree_sign_up">회원가입</string>
+    <string name="activity_sign_up_agree_agree">약관 동의</string>
+    <string name="activity_sign_up_agree_all">아래 약관에 모두 동의합니다.</string>
+    <string name="activity_sign_up_agree_service_use">서비스이용약관 동의 (필수)</string>
+    <string name="activity_sign_up_agree_private_info">개인정보처리방침 동의 (필수)</string>
+    <string name="activity_sign_up_agree_community_use">커뮤니티이용규칙 확인 (필수)</string>
+    <string name="activity_sign_up_agree_marketing_info">광고성 정보 수신 동의 (선택)</string>
+    <string name="activity_sign_up_agree_myself">본인 명의를 이용하여 가입을 진행하겠습니다.</string>
+    <string name="activity_sign_up_agree_age_over_14">만 14세 이상입니다.</string>
+    <string name="activity_sign_up_agree_btn_next">다음</string>
+    <string name="activity_sign_up_agree_agreement_1">제1조(목적)\n
+        에브리타임 서비스 이용약관은 회사가 서비스를 제공함에 있어, 회사와 이용자 간의 권리, 의무 및 책임 사항 등을 규정함을 목적으로 합니다.\n\n
+        제2조(정의)\n
+        이 약관에서 사용하는 용어의 정의는 다음과 같습니다.\n
+        "회사"란, 서비스를 제공하는 주체를 말합니다.\n
+        "서비스"란, 회사가 제공하는 모든 서비스 및 기능을 말합니다.\n
+        "이용자"란, 이 약관에 따라 서비스를 이용하는 회원 및 비회원을 말합니다.\n
+        "회원"이란, 서비스에 회원등록을 하고 서비스를 이용하는 자를 말합니다.\n
+        "비회원"이란, 서비스에 회원등록을 하지 않고 서비스를 이용하는 자를 말합니다.\n
+        "게시물"이란, 서비스에 게재된 문자, 사진, 영상, 첨부파일, 광고 등을 말합니다.\n
+        "커뮤니티"란, 게시물을 게시할 수 있는 공간을 말합니다.\n
+        "이용 기록"이란, 이용자가 서비스를 이용하면서 직접 생성한 시간표, 친구, 학점 정보 등을 말합니다.\n
+        "로그 기록"이란, 이용자가 서비스를 이용하면서 자동으로 생성된 IP 주소, 접속시간 등을 말합니다.\n
+        "기기 정보"란, 이용자의 통신 기기에서 수집된 운영체제 종류, ADID 등을 말합니다.\n
+        "계정"이란, 이용계약을 통해 생성된 회원의 고유 아이디와 이에 수반하는 정보를 말합니다.\n
+        "서비스 내부 알림 수단"이란, 팝업, 알림, 1:1 대화, 공지사항, 내 정보 메뉴 등을 말합니다.\n
+        "연락처"란, 회원가입, 본인 인증, 문의 창구 등을 통해 수집된 이용자의 이메일, 휴대전화 번호 등을 의미합니다.\n
+        "관련법"이란, 정보통신망 이용촉진 및 정보보호 등에 관한 법률, 개인정보보호법, 통신비밀보호법 등 관련 있는 국내 법령을 말합니다.\n
+        "본인 인증"이란, 휴대전화 번호 등을 이용한 본인 확인 절차를 말합니다.\n
+        "학교 인증"이란, 학생증, 학교 웹메일, 증명서 등을 이용한 학적 확인 절차를 말합니다.\n
+        1항에서 정의되지 않은 약관 내 용어의 의미는 일반적인 이용관행에 의합니다.</string>
+    <string name="activity_sign_up_agree_agreement_2">개인정보 처리방침은 회사가 서비스를 제공함에 있어, 개인정보를 어떻게 수집·이용·보관·파기하는지에 대한 정보를 담은 방침을 의미합니다. 개인정보 처리방침은 개인정보보호법, 정보통신망 이용촉진 및 정보보호 등에 관한 법률 등 국내 개인정보 보호 법령을 모두 준수하고 있습니다. 이 약관의 정의는 서비스 이용약관을 따릅니다.\n\n
+        1. 수집하는 개인정보의 항목\n
+        회사는 서비스 제공을 위해 아래 항목 중 최소한의 개인정보를 수집합니다.\n\n
+        회원가입을 할 경우\n
+        학교, 아이디, 이메일, 이름, 휴대전화 번호, 통신사 정보, 생년월일, 성별, 입학년도, 닉네임, 프로필 사진, 광고성 정보 수신 동의 여부, 타 서비스 로그인 고유번호, 연계정보(CI, DI)\n
+        학교인증을 할 경우\n
+        학교 이메일, 학번, 수험번호, 마스킹된 증빙 자료 사본(학생증, 학교 포털 스크린샷, 학교 증명서)\n
+        이벤트·행사 참여를 할 경우\n
+        이름, 전화번호, 주소, 타 서비스 고유번호\n
+        제휴·광고·게시 요청을 할 경우\n
+        단체명, 대표자·담당자 정보(이름, 이메일, 전화번호, 직책)\n
+        게시중단 요청을 할 경우\n
+        요청인·대리인 정보(이름·단체명, 생년월일·설립일, 마스킹된 신분증 사본, 연락처, 이메일, 증빙 자료 사본)\n
+        ※ 각 항목 또는 추가적으로 수집이 필요한 개인정보 및 개인정보를 포함한 자료는 이용자 응대 과정과 서비스 내부 알림 수단 등을 통해 별도로 요청·수집될 수 있습니다.</string>
+    <string name="activity_sign_up_agree_agreement_3">커뮤니티 이용규칙\n
+        커뮤니티를 이용하기 전 커뮤니티 이용규칙의 모든 내용을 반드시 숙지해주시기 바랍니다.\n
+        이 약관의 정의는 서비스 이용약관을 따릅니다.\n
+        신고처리 시스템\n
+        모든 게시물은 이용자의 신고를 기반으로 하는 신고처리 시스템을 통해 처리됩니다. 커뮤니티 이용규칙에 어긋난다고 판단되는 글, 댓글, 게시판, 1:1 대화를 발견하셨을 경우, 신고 버튼을 눌러 신고해주시기 바랍니다.\n
+        커뮤니티 이용규칙에 어긋나거나, 다른 이용자에게 신고를 받을 수 있는 게시물을 작성해서는 안됩니다. 신고 누적으로 인해 발생한 피해는 어떠한 경우에도 책임을 지지 않습니다.\n
+        커뮤니티 이용규칙을 위반하거나 신고가 누적된 이용자는 작성한 게시물이 삭제될 수 있으며, 최대 5년까지의 글쓰기 제한, 1:1 대화 이용 제한, 접근 제한 등의 제재가 가해집니다.\n
+        모든 처리는 신고처리 시스템을 통하므로, 신고자 및 신고 사유를 확인하거나 접근 제한을 해제하는 것은 불가능합니다.\n
+        신고 시, 처리를 위해 게시물 및 1:1 대화의 일부가 일시적으로 저장될 수 있습니다.\n
+        유출방지 시스템\n
+        커뮤니티 이용 시, 게시물을 복사, 스크린샷 등을 통해 외부로 유출해서는 안 됩니다. 게시물 유출 피해를 방지하기 위해, 유출방지 시스템이 실시간으로 동작하여 게시물 유출을 감지하고 있습니다.\n
+        유출방지 시스템을 통해 게시물 유출이 적발될 경우, 5년의 전체 서비스 접근제한이 가해집니다. 만약 게시물 유출을 발견하셨을 경우, 게시물 유출 신고를 통해 신고해주시기 바랍니다.\n
+        이용자는 게시물 유출 행위로 인해 발생한 모든 피해에 대한 민형사상 책임과 손해를 배상할 책임이 있습니다.\n
+        금지 행위\n
+        다음 목록에 해당하는 게시물 작성, 1:1 대화 발송, 게시판 개설, 악용 행위를 금지하고 있습니다.\n
+        예의범절에 어긋나는 행위\n
+        타인 또는 특정단체·지역에 대한 욕설, 악담, 비방, 비하, 비아냥\n
+        내용·결말을 발설하거나, 혐오를 불러일으키거나, 속이거나, 놀라게 하는 행위\n
+        과도한 정치·종교 연관 행위\n
+        미풍양속에 어긋나는 행위\n
+        외설, 음란물, 음담패설, 신체사진 등 청소년유해매체물 게시\n
+        불건전한 모임, 대화, 통화 등 온·오프라인 만남\n
+        유흥 관련 정보 공유, 매매·알선 행위 등 불법 행위\n
+        정보통신망법에 반하는 홍보 행위\n
+        기업·비영리기관·개인·단체의 직간접적 광고·홍보·판매 행위\n
+        계정 공유 요청, 홍보 요청, 바이럴 이벤트 등 게시물 대리 작성 행위\n
+        공모전, 대외활동, 이벤트, 아카데미, 채용, 행사, 강연, 공연, 영화 홍보\n
+        교육, 의료, 식당, 부동산, 배달, 공유 사업 홍보\n
+        어플리케이션, 웹사이트, 블로그, 카페, 서비스 홍보\n
+        구독, 좋아요, 학우 참여, 링크 클릭, 추천인 입력, 앱 설치, 회원가입 요청\n
+        공동구매, 펀딩, 기부금품 요청 행위\n
+        기타 광고·홍보·판매 관련 게시물 일체</string>
+    <string name="activity_sign_up_agree_agreement_4">영화/전시 초대 이벤트, 대학생 특별 할인 혜택 등 다양한 이벤트 및 정보를 서비스에서 만나보실 수 있습니다.\n
+        항목 : 마케팅 수신 동의\n
+        목적 : 서비스 및 이벤트 정보 안내\n
+        기간 : 탈퇴 후 최대 1년</string>
+    <string name="activity_sign_up_agree_agreement_5">부모님, 친구 등 타인의 명의로 가입할 수 없습니다.\n
+에브리타임은 철저한 학교 인증과 안전한 익명 커뮤니티를 제공하기 위해, 가입 시 본인 인증 수단을 통해 본인 여부를 확인하고, 커뮤니티 이용 시 증명 자료 제출을 통해 재학 여부를 확인합니다. 두 정보가 일치하지 않을 경우 서비스를 이용하실 수 없습니다.</string>
+    <string name="activity_sign_up_agree_agreement_6">에브리타임은 국내 대학생을 위한 서비스이며, 본인 인증을 통해 만 14세 이상만 가입할 수 있습니다.</string>
+
+    <!--    activity_sign_up_input_form (회원가입 정보 입력 페이지)-->
+    <string name="activity_sign_up_input_form_sign_up">회원가입</string>
+    <string name="activity_sign_up_input_form_member_info">회원 정보</string>
+    <string name="activity_sign_up_input_form_id">아이디</string>
+    <string name="activity_sign_up_input_form_id_constraint">영문, 숫자, 4~20자</string>
+    <string name="activity_sign_up_input_form_id_hint">아이디</string>
+    <string name="activity_sign_up_input_form_pw">비밀번호</string>
+    <string name="activity_sign_up_input_form_pw_constraint">4~20자</string>
+    <string name="activity_sign_up_input_form_pw_hint">비밀번호</string>
+    <string name="activity_sign_up_input_form_pw_again_hint">비밀번호 확인</string>
+    <string name="activity_sign_up_input_form_email">이메일</string>
+    <string name="activity_sign_up_input_form_email_description">아이디/비밀번호 찾기에 필요</string>
+    <string name="activity_sign_up_input_form_email_hint">이메일</string>
+    <string name="activity_sign_up_input_form_nickname">닉네임</string>
+    <string name="activity_sign_up_input_form_nickname_description">커뮤니티 활동에 필요</string>
+    <string name="activity_sign_up_input_form_nickname_hint">닉네임</string>
+    <string name="activity_sign_up_input_form_univ">대학교</string>
+    <string name="activity_sign_up_input_form_univ_description">해당 대학의 커뮤니티로 자동 가입</string>
+    <string name="activity_sign_up_input_form_univ_hint">대학교</string>
+    <string name="activity_sign_up_input_form_univ_year">학번</string>
+    <string name="activity_sign_up_input_form_univ_year_constraint">2020, 2018 등으로 입력</string>
+    <string name="activity_sign_up_input_form_univ_year_hint">ex)2015</string>
+    <string name="activity_sign_up_input_form_phone">휴대폰</string>
+    <string name="activity_sign_up_input_form_phone_constraint">띄어쓰기나 \'-\' 없이 입력</string>
+    <string name="activity_sign_up_input_form_phone_hint">ex)01012345678</string>
+    <string name="activity_sign_up_input_form_btn_sign_up">회원가입</string>
+
+    <!--    activity_my_page (내 정보 페이지)-->
+    <string name="activity_my_page_my_info">내 정보</string>
+    <string name="activity_my_page_user_nickname">유저 닉네임</string>
+    <string name="activity_my_page_user_id">유저 아이디</string>
+    <string name="activity_my_page_univ_name">대학명</string>
+    <string name="activity_my_page_univ_year">학번</string>
+    <string name="activity_my_page_account">계정</string>
+    <string name="activity_my_page_univ_certificate">학교 인증</string>
+    <string name="activity_my_page_change_profile_image">프로필 이미지 변경</string>
+    <string name="activity_my_page_change_nickname">닉네임 변경</string>
+    <string name="activity_my_page_withdrawal">회원 탈퇴</string>
+    <string name="activity_my_page_log_out">로그아웃</string>
+
+    <!--    item_summarized_post (게시글 들어가기 전 미리보기 화면)-->
+    <string name="tv_item_post_title">표시될 게시글의 제목</string>
+    <string name="tv_item_post_content">표시될 게시글의 내용</string>
+    <string name="tv_item_post_time">12분 전</string>
+    <string name="tv_item_post_nickname">익명</string>
+    <string name="tv_item_post_like_num">0</string>
+    <string name="tv_item_post_comment_num">0</string>
+
+    <!--    activity_in_post (게시글 안에 들어왔을 때 화면)-->
+    <string name="activity_in_post_nickname">익명</string>
+    <string name="activity_in_post_time">방금</string>
+    <string name="activity_in_post_like">공감</string>
+    <string name="activity_in_post_scrap">스크랩</string>
+    <string name="activity_in_post_title">글 제목</string>
+    <string name="activity_in_post_content">글 내용</string>
+    <string name="activity_in_post_like_num">0</string>
+    <string name="activity_in_post_comment_num">0</string>
+    <string name="activity_in_post_scrap_num">0</string>
+
+    <!-- activity_updating (글 수정 화면) -->
+    <string name="activity_updating_updating">글 수정</string>
+
+    <!--    activity_writing (글 작성 화면)-->
+    <string name="activity_writing_writing">글 쓰기</string>
+    <string name="activity_writing_btn_complete">완료</string>
+    <string name="activity_writing_title_hint">제목</string>
+    <string name="activity_writing_content_hint">여기를 눌러서 글을 작성할 수 있습니다.\n\n
+    [홍보 게시물 작성 금지]\n
+        1. 링크 클릭, 학교 대항전, 추천인 입력\n
+        2. 글 작성, 계정 공유 요청 등 게시물 대리 작성 행위\n
+        3. 공동구매, 펀딩, 기부금품 요청 행위\n
+        4. 그 외 모든 직간접적 광고,홍보,판매 행위\n\n
+
+        [선거, 정당, 정치인 관련 게시물 작성 금지]\n
+        1. 정당, 정치인, 선거 후보자 및 관련자에 대한 비방, 비하, 모욕\n
+        2. 선거 후보자에 대한 지지, 홍보 및 선거운동 활동\n
+        3. 여론조사 결과 인용\n\n
+
+        [커뮤니티 이용규칙에 어긋나는 행위 금지]\n
+        1. 게시판의 스크린샷, 게시물 내용 유출\n
+        2. 욕설, 비하, 음란물, 개인정보가 포함된 게시물 게시\n
+        3. 특정인이나 단체/지역을 비방하는 행위\n
+        4. 기타 약관 및 현행법에 어긋나는 행위\n\n
+
+        자세한 내용은 홈 탭 우측 상단의 [내 정보] > [커뮤니티 이용규칙]을 참고하시기 바랍니다.
+    </string>
+    <string name="activity_writing_anonymous">익명</string>
+
+    <!--    frag_home-->
+    <string name="frag_home_univ_name">소퀘대</string>
+    <string name="frag_home_univ_homepage">학교\n홈</string>
+    <string name="frag_home_shuttle_bus">셔틀\n버스</string>
+    <string name="frag_home_notification">학사\n공지</string>
+    <string name="frag_home_schedule">학사\n일정</string>
+    <string name="frag_home_library">도서관</string>
+    <string name="frag_home_webmail">웹메일</string>
+    <string name="frag_home_favorite_board">즐겨찾는 게시판</string>
+    <string name="frag_home_see_more"><![CDATA[더 보기 >]]></string>
+    <string name="frag_home_realtime_hot_post">실시간 인기 글</string>
+    <string name="frag_home_nickname">익명</string>
+    <string name="frag_home_date">07/03</string>
+    <string name="frag_home_time">22:20</string>
+
+    <!--    frag_home_hot_post-->
+    <string name="frag_home_realtime_hot_post_1_title">실시간 인기글 1의 제목</string>
+    <string name="frag_home_realtime_hot_post_1_content">실시간 인기글 1의 내용 실시간 인기글 1의 내용 실시간 인기글 1의 내용 실시간 인기글 1의 내용 실시간 인기글 1의 내용 실시간 인기글 1의 내용 실시간 인기글 1의 내용</string>
+    <string name="frag_home_realtime_hot_post_1_board_type">게시판 종류</string>
+    <string name="frag_home_realtime_hot_post_2_nickname">익명</string>
+    <string name="frag_home_realtime_hot_post_2_date">07/03</string>
+    <string name="frag_home_realtime_hot_post_2_time">22:20</string>
+    <string name="frag_home_realtime_hot_post_2_title">실시간 인기글 2의 제목</string>
+    <string name="frag_home_realtime_hot_post_2_content">실시간 인기글 2의 내용 실시간 인기글 2의 내용 실시간 인기글 2의 내용 실시간 인기글 2의 내용 실시간 인기글 2의 내용 실시간 인기글 2의 내용</string>
+    <string name="frag_home_realtime_hot_post_2_board_type">게시판 종류</string>
+    <string name="frag_home_realtime_hot_post_2_like_num">0</string>
+    <string name="frag_home_realtime_hot_post_1_comment_num">0</string>
+    <string name="frag_home_realtime_hot_post_1_like_num">0</string>
+    <string name="frag_home_realtime_hot_post_2_comment_num">0</string>
+    <string name="frag_home_hot_post">HOT 게시물</string>
+    <string name="frag_home_hot_post_1_title">HOT 게시물 1의 제목</string>
+    <string name="frag_home_hot_post_1_time">18:21</string>
+    <string name="frag_home_hot_post_1_like_num">0</string>
+    <string name="frag_home_hot_post_1_comment_num">0</string>
+    <string name="frag_home_hot_post_2_title">HOT 게시물 2의 제목</string>
+    <string name="frag_home_hot_post_2_time">18:21</string>
+    <string name="frag_home_hot_post_2_like_num">0</string>
+    <string name="frag_home_hot_post_2_comment_num">0</string>
+    <string name="frag_home_hot_post_3_title">HOT 게시물 3의 제목</string>
+    <string name="frag_home_hot_post_3_time">18:21</string>
+    <string name="frag_home_hot_post_3_like_num">0</string>
+    <string name="frag_home_hot_post_3_comment_num">0</string>
+    <string name="frag_home_hot_post_4_title">HOT 게시물 4의 제목</string>
+    <string name="frag_home_hot_post_4_time">18:21</string>
+    <string name="frag_home_hot_post_4_like_num">0</string>
+    <string name="frag_home_hot_post_4_comment_num">0</string>
+
+    <!--    frag_home_recent_lecture_review-->
+    <string name="frag_home_recent_lecture_review">최근 강의평</string>
+    <string name="frag_home_recent_lecture_review_1_subject">서양철학사</string>
+    <string name="frag_home_recent_lecture_review_1_content">첫 번째 강의평 첫 번째 강의평 첫 번째 강의평 첫 번째 강의평 첫 번째 강의평 첫 번째 강의평 첫 번째 강의평 첫 번째 강의평 첫 번째 강의평 첫 번째 강의평 첫 번째 강의평</string>
+    <string name="frag_home_recent_lecture_review_2_subject">마케팅 애널리틱스</string>
+    <string name="frag_home_recent_lecture_review_2_content">두 번째 강의평 두 번째 강의평 두 번째 강의평 두 번째 강의평 두 번째 강의평 두 번째 강의평 두 번째 강의평 두 번째 강의평</string>
+    <string name="frag_home_recent_lecture_review_3_subject">전자기학</string>
+    <string name="frag_home_recent_lecture_review_3_content">세 번째 강의평 세 번째 강의평 세 번째 강의평 세 번째 강의평 세 번째 강의평 세 번째 강의평 세 번째 강의평 세 번째 강의평</string>
+    <string name="frag_home_recent_lecture_review_4_subject">경제학이란 무엇인가</string>
+    <string name="frag_home_recent_lecture_review_4_content">네 번째 강의평 네 번째 강의평 네 번째 강의평 네 번째 강의평 네 번째 강의평 네 번째 강의평 네 번째 강의평 네 번째 강의평</string>
+    <string name="frag_home_btn_home_setting">홈 화면 설정</string>
+
+
+</resources>
